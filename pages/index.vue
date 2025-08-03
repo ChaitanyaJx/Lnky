@@ -94,7 +94,7 @@ const prefillDemoData = () => {
       {
         l: "My Portfolio",
         i: "ph:globe-duotone",
-        u: "https://example.com",
+        u: "https://chaitanyajambhulkar.netlify.app/",
       },
       {
         l: "View My Projects",
