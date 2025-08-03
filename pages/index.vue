@@ -38,7 +38,7 @@
           <icon name="ph:paper-plane-tilt-bold" class="h-4 w-4" />
         </button>
         <a
-          href="https://github.com/fayazara/onelink"
+          href="https://github.com/ChaitanyaJx/onelink"
           target="_blank"
           class="h-12 flex items-center space-x-2 px-4 border-r text-xs font-medium bg-white text-slate-700"
         >
@@ -49,11 +49,11 @@
     </div>
     <app-form-preview :data="data" />
     <a
-      href="https://twitter.com/fayazara"
+      href="https://twitter.com/ChaitanyaJx"
       target="_blank"
       class="absolute bottom-0 right-0 bg-white rounded-tl-lg shadow px-4 py-1 font-medium text-sm text-gray-500"
     >
-      Made by Fayaz
+      Made by Chaitanya
     </a>
   </div>
 </template>
@@ -78,43 +78,33 @@ const data = ref({
 
 const prefillDemoData = () => {
   data.value = {
-    n: "John Snow",
-    d: "I’m John Snow, the king in the north. I know Nothing.",
-    i: "https://i.insider.com/56743fad72f2c12a008b6cc0",
-    f: "https://www.facebook.com/john_snow",
-    t: "https://twitter.com/john_snow",
-    ig: "https://www.instagram.com/john_snow",
-    e: "mail@john_snow.cc",
-    gh: "https://github.com/john_snow",
-    tg: "https://t.me/john_snow",
-    w: "+918888888888",
-    y: "https://youtube.com/@john_snow",
-    l: "https://linkedin.com/john_snow",
+    n: "Chaitanya Jambhulkar",
+    d: "Developer passionate about creating simple and effective solutions.",
+    i: "https://i.ibb.co/R47Gq6vD/photo-2024-05-17-19-12-08.jpg",
+    f: "",
+    t: "",
+    ig: "",
+    e: "chaitanyajambhulkar768@gmail.com",
+    gh: "https://github.com/ChaitanyaJx",
+    tg: "",
+    w: "",
+    y: "",
+    l: "",
     ls: [
       {
-        l: "My Website",
+        l: "My Portfolio",
         i: "ph:globe-duotone",
         u: "https://example.com",
       },
       {
-        l: "Amazon wishlist",
-        i: "ant-design:amazon-outlined",
-        u: "https://amazon.in",
+        l: "View My Projects",
+        i: "ph:code-duotone",
+        u: "https://github.com/ChaitanyaJx",
       },
       {
-        l: "React JS course",
-        i: "grommet-icons:reactjs",
-        u: "https://reactjs.org/",
-      },
-      {
-        l: "Donate for our cause",
-        i: "iconoir:donate",
-        u: "https://who.int",
-      },
-      {
-        l: "Download my resume",
-        i: "ph:file-pdf",
-        u: "https://google.com",
+        l: "Contact Me",
+        i: "ph:envelope-duotone",
+        u: "mailto:chaitanyajambhulkar768@gmail.com",
       },
     ],
   };
